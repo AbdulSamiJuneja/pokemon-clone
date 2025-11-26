@@ -3,7 +3,9 @@
     margin: 0px;
     font-family: Arial;
 }
-
+/* body{
+    background-image: url("./Accets/body-bg.png");
+} */
 .img-bar {
     padding: 5px;
     display: flex;
@@ -13,7 +15,6 @@
     box-shadow: 0px 12px 11px -10px rgba(0, 0, 0, 0.65);
     -webkit-box-shadow: 0px 12px 11px -10px rgba(0, 0, 0, 0.65);
     -moz-box-shadow: 0px 12px 11px -10px rgba(0, 0, 0, 0.65);
-    margin-bottom: 5px;
 }
 
 .img-bar img {
@@ -23,11 +24,12 @@
 
 /* top row top images nav-bar completed */
 .text-icon-navbar {
+    padding-top: 5px;
+    background: white;
     height: 105px;
     display: flex;
     justify-content: center;
     position: relative;
-    /* background-color: pink; */
     border-bottom: 3px solid #f5f5f5;
     margin-bottom: 5px;
 }
@@ -61,30 +63,37 @@
 
 .icon1:hover {
     background-color: #919191;
+    color:white;
 }
 
 .icon2:hover {
     background-color: #e3350d;
+    color:white;
 }
 
 .icon3:hover {
     background-color: #ee6b2f;
+    color:white;
 }
 
 .icon4:hover {
     background-color: #e6bc2f;
+    color:white;
 }
 
 .icon5:hover {
     background-color: #4dad5b;
+    color:white;
 }
 
 .icon6:hover {
     background-color: #30a7d7;
+    color:white;
 }
 
 .icon7:hover {
     background-color: #1b53ba;
+    color:white;
 }
 
 /* for rainbow color bottom i add background list and give li to same property so it's show as bottom rainbow colors*/
@@ -126,3 +135,143 @@
     background-color: #1b53ba;
     border-bottom-right-radius: 10px;
 }
+/* header complete but position sticky in not working so i apply it later */
+main{
+    background-image: url("./Accets/body-white-bg.png");
+    background-size: contain;    /* height:500px; */
+}
+/* top images section box 1 mean 1 images box start */
+.first-section{
+    background-color: white;
+    margin:0px 14.5%;
+}
+.img1-box{
+    padding-top:10px;
+    display: flex;
+    flex-direction: column;
+    width:65%;
+    border-radius:8px;
+}
+.img-box img{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.box1-content{
+    background-color: rgb(217, 116, 217);
+    padding: 15px 0px 0px  10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}   
+.box1-content h2{
+    font-size: 1.4rem;
+    color:white;
+    font-weight: 400;    
+}
+.box1-content p{
+    padding:8px 15px 35px 5px; 
+    font-size: 1rem;
+    color:purple;
+    font-weight: 500;
+}
+/* top image section 2box 2image started */
+.img2-box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height:200px;
+}
+.box2-content{
+    background-color: rgb(55, 47, 55);
+    padding: 15px 0px 0px  10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box2-content h2{
+        color:white;
+    font-size:1.4rem;
+    font-weight:400; 
+    padding:8px 15px 35px 5px;
+}
+/* top images section 3box 3image started */
+.img3-box{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    height:200px;
+}
+.box3-content{
+        background-color: #4dad5b;
+    padding: 15px 0px 0px  10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:50%;
+}
+.img3-box img{
+    width:48%;
+}
+
+.box3-content h2{
+    color:white;
+    font-size:1.4rem;
+    font-weight:400; 
+    padding:8px 15px 35px 5px; 
+}
+/* top images section 4box 4image started */
+.img4-box{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+    height:300px;
+}
+.box4-content{
+    background-color: #1b53ba;
+    padding: 15px 0px 0px  10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box4-content h2{
+    color:white;
+    font-size:1.4rem;
+    font-weight:400; 
+    padding:8px 15px 35px 5px;
+}
+/* top images section 5box 5image started */
+.img5-box{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+    height:300px;
+}
+.box5-content{
+    background-color: #e6bc2f;
+    padding: 15px 0px 0px  10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box5-content h2{
+    color:white;
+    font-size:1.4rem;
+    font-weight:400; 
+    padding:8px 15px 35px 5px
+}
+/* top images section 6box 6image started */
+.img6-box{
+    display: flex;
+    flex-direction:column;
+    width: 30%;
+    height:450px;
+}
+.box6-content{
+    background-color: #919191;
+    padding: 15px 0px 0px  10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box6-content h2{
+    color:white;
+    font-size:1.4rem;
+    font-weight:400;
+    padding:8px 15px 35px 5px;
+}
+
+/* footer starting */
