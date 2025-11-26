@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Arial;
+}
+
+.img-bar {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 12px 11px -10px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 0px 12px 11px -10px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 12px 11px -10px rgba(0, 0, 0, 0.65);
+    margin-bottom: 5px;
+}
+
+.img-bar img {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+/* top row top images nav-bar completed */
+.text-icon-navbar {
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* background-color: pink; */
+    border-bottom: 3px solid #f5f5f5;
+    margin-bottom: 5px;
+}
+
+.nav-list {
+    width: 73%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list img {
+    height: 30px;
+    position: absolute;
+    top: 12%;
+}
+
+.icons {
+    list-style-type: none;
+    height: 100%;
+    width: 14%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 23px;
+    padding-top: 25px;
+    font-size: 0.90rem;
+}
+
+.icon1:hover {
+    background-color: #919191;
+}
+
+.icon2:hover {
+    background-color: #e3350d;
+}
+
+.icon3:hover {
+    background-color: #ee6b2f;
+}
+
+.icon4:hover {
+    background-color: #e6bc2f;
+}
+
+.icon5:hover {
+    background-color: #4dad5b;
+}
+
+.icon6:hover {
+    background-color: #30a7d7;
+}
+
+.icon7:hover {
+    background-color: #1b53ba;
+}
+
+/* for rainbow color bottom i add background list and give li to same property so it's show as bottom rainbow colors*/
+.bg-list {
+    width: 73%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 11px;
+    height: 100px;
+}
+
+.bgicon1 {
+    background-color: #919191;
+    border-bottom-left-radius: 10px;
+}
+
+.bgicon2 {
+    background-color: #e3350d;
+}
+
+.bgicon3 {
+    background-color: #ee6b2f;
+}
+
+.bgicon4 {
+    background-color: #e6bc2f;
+}
+
+.bgicon5 {
+    background-color: #4dad5b;
+}
+
+.bgicon6 {
+    background-color: #30a7d7;
+}
+
+.bgicon7 {
+    background-color: #1b53ba;
+    border-bottom-right-radius: 10px;
+}
