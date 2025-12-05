@@ -22,8 +22,20 @@
     border: 1px solid black;
     padding: 2px;
 }
-
 /* top row top images nav-bar completed */
+/* started sticky nav bar  */
+header{
+    position:sticky;
+    top:-112px;
+    z-index: 999;
+}
+/* .sticky-position-nav-bar{
+    height:105px;
+    background-color: #1b53ba;
+    width:100%;
+    position:sticky;
+    top:0px;
+} */
 .text-icon-navbar {
     padding-top: 5px;
     background: white;
@@ -44,9 +56,11 @@
 .nav-list img {
     height: 30px;
     position: absolute;
-    top: 12%;
+    top: 11%;
 }
-
+.padding-text{
+    padding-top:18px;
+}
 .icons {
     list-style-type: none;
     height: 100%;
@@ -61,12 +75,14 @@
     padding-top: 25px;
     font-size: 0.90rem;
 }
-
-.icon1:hover {
+.icon1{
+    background-color: #919191;
+     color: white;
+}
+/* .icon1:hover {
     background-color: #919191;
     color: white;
-}
-
+} */
 .icon2:hover {
     background-color: #e3350d;
     color: white;
@@ -142,7 +158,52 @@ main {
     background-image: url("./Accets/body-white-bg.png");
     background-size: contain;
     background-repeat: repeat;
-    /* height:500px; */
+}
+/* fixed log in and seacrch bar started*/
+.fixed-sign{
+    border: 3px solid black;
+    border-top-right-radius: 21px;
+    position:fixed;
+    top:210px;
+    z-index: 999;
+}
+.fixed-sign-profile{
+    width:60px;
+    height:130px;
+    background-color:#4dad5b;
+    border-top-right-radius: 20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+}
+.fixed-sign-profile:hover{
+    background-color: #369143;
+}
+.fixed-sign-profile i{
+    color:white;
+    font-size:1.8rem;
+}
+.fixed-sign-profile p{
+    color:white;
+    font-weight:bold;
+    padding-top: 2px;
+    font-size: 0.6rem;
+}
+.fixed-sign-search{
+    width:60px;
+    height:70px;
+    background-color: #212121;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.fixed-sign-search:hover{
+    background-color: #30a7d7;
+}
+.fixed-sign-search i{
+    color:white;
+    font-size:1.6rem;
 }
 
 /* top images section box 1 mean 1 images box start */
@@ -905,4 +966,106 @@ footer {
 .para-with-link a{
     color:white;
     font-weight: bold;
+}
+/* footer second part starting */
+.footer-last-section{
+    padding-top: 30px;
+    padding-bottom:20px;
+    margin:0% 14.5%;
+    display:flex;
+    justify-content:space-between;
+}
+.footer-list-container h2{
+    color:white;
+    padding-bottom: 30px;
+    font-size:1.4rem;
+}
+.footer-list{
+    position:relative;
+    right:35px;
+}
+.footer-list li{
+    list-style-type: none;
+    font-size: 1rem;
+    color:white;
+    padding-bottom:5px;
+}
+.footer-list li:hover{
+    text-decoration: underline;
+}
+.footer-list2{
+    position:relative;
+    right:38px;
+}
+.footer-list2 li{
+    list-style-type: none;
+    font-size: 0.8rem;
+    color:white;
+    padding-bottom: 9px;
+    position: relative;
+}
+.footer-list2 li:hover{
+    text-decoration: underline;
+}
+.left-border{
+    width:2px;
+    background-color: black;
+    height:200px;
+}
+.developer{
+    color:black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    background-color: white;
+    padding: 3px;
+}
+.socail-icon-container{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+.socialbox{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:33px;
+    width:33px;
+    border:1px solid transparent;
+    background-color: white;
+    border-radius: 5px;
+}
+.socialbox i{
+    font-size: 1.3rem;
+    color:white;
+}
+.soc-icon1{
+    background-color: #3b5998;
+}
+.soc-icon2{
+    background-color: #ff0000;
+}
+.soc-icon3{
+    background-color: #44ccf6;
+}
+.soc-icon4{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.soc-icon5{
+    background-color: #e60019;
+}
+
+.soc-icon1:hover{
+    opacity: 0.8;
+}
+.soc-icon2:hover{
+    opacity: 0.8;
+}
+.soc-icon3:hover{
+    opacity: 0.8;
+}
+.soc-icon4:hover{
+    opacity: 0.8;
+}
+.soc-icon5:hover{
+    opacity: 0.8;
 }

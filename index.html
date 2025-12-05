@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Clone Pokemon WebPage | pokemon.com</title>
+    <title>The Clone Pokémon WebPage | Pokémon.com</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -32,27 +32,32 @@
                 <li class="icons bgicon7"></li>
             </ul>
             <ul class="nav-list">
-                <li class="icons icon1"> <img src="./Accets/game.png" alt=""> Home</li>
-                <li class="icons icon2"> <img src="./Accets/game.png" alt="">Pokedex</li>
-                <li class="icons icon3"> <img src="./Accets/game.png" alt="">Video Games & Apps</li>
-                <li class="icons icon4"> <img src="./Accets/game.png" alt="">Trending Card Game</li>
-                <li class="icons icon5"> <img src="./Accets/game.png" alt="">Animation</li>
-                <li class="icons icon6"> <img src="./Accets/game.png" alt="">Play! Pokemon Events</li>
+                <li class="icons icon1"> <img src="./Accets/game.png" alt=""><p>Home</p></li>
+                <li class="icons icon2"> <img src="./Accets/game.png" alt=""><p>Pokédex</p></li>
+                <li class="icons icon3"> <img src="./Accets/game.png" alt=""><p class="padding-text">Video Games & Apps</p></li>
+                <li class="icons icon4"> <img src="./Accets/game.png" alt=""><p class="padding-text">Trending Card Game</p></li>
+                <li class="icons icon5"> <img src="./Accets/game.png" alt=""><p>Animation</p></li>
+                <li class="icons icon6"> <img src="./Accets/game.png" alt=""><p class="padding-text">Play! Pokémon Events</p></li>
                 <li class="icons icon7"> <img src="./Accets/game.png" alt="">News</li>
             </ul>
         </div>
     </header>
-    <!-- <div class="fixed-sign">
-        <i class="fa-solid fa-circle-user"></i>
-        <i class="fa-solid fa-magnifying-glass"></i>
-    </div> -->
     <main>
+        <div class="fixed-sign">
+            <div class="fixed-sign-profile">
+                <i class="fa-solid fa-circle-user"></i>
+                <p>Log in</p>
+            </div>
+            <div class="fixed-sign-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
         <div class="first-section">
             <div class="img1-box">
                 <img src="./Accets/first-section-img-1.png" alt="">
                 <div class="box1-content">
-                    <h2>Show Your Resolve with Keldeo in Pokemon GO</h2>
-                    <p>Resolute Form Keldeo and Shiny Keldeo make their Pokemon GO dubuts during the Final Justise event
+                    <h2>Show Your Resolve with Keldeo in Pokémon GO</h2>
+                    <p>Resolute Form Keldeo and Shiny Keldeo make their Pokémon GO dubuts during the Final Justise event
                     </p>
                 </div>
             </div>
@@ -71,7 +76,7 @@
             <div class="img4-box">
                 <img src="./Accets/first-section-img-4.png" alt="">
                 <div class="box4-content">
-                    <h2>Get Cool Cosmetics in Pokemon TCG Live</h2>
+                    <h2>Get Cool Cosmetics in Pokémon TCG Live</h2>
                 </div>
             </div>
             <div class="img5-box">
@@ -83,14 +88,14 @@
             <div class="img6-box">
                 <img src="./Accets/first-section-img-6.png" alt="">
                 <div class="box6-content">
-                    <h2>Soar into Battle with Mega Pidgeot ex in Pokemon TCG Pocket</h2>
+                    <h2>Soar into Battle with Mega Pidgeot ex in Pokémon TCG Pocket</h2>
                 </div>
             </div>
         </div>
         <!-- vertical row or pokemon boxes started -->
         <div class="top-box-name">
             <img src="./Accets/ball.png" alt="">
-            <p>Featured Pokemon</p>
+            <p>Featured Pokémon</p>
         </div>
 
         <div class="arrow-box-L">
@@ -152,7 +157,7 @@
             </div>
         </div>
         <div class="bottom-box-name">
-            <p>Explore More Pokemon</p>
+            <p>Explore More Pokémon</p>
         </div>
         <div class="arrow-box-R">
             <img src="./Accets/right-arror.png" alt="">
@@ -222,15 +227,16 @@
         <div class="footer-container">
             <h2>Sign up for Pokémon emails!</h2>
             <div class="signup-form">
-                <form action=""><input type="email" name="email" id="email" placeholder="Email">
-                    <select name="countery" id="sec-country">
+                <form action="">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <select name="countery" id="sec-country" required>
                         <option value="United States" selected>United States</option>
                         <option value="Albania">Albania</option>
                         <option value="Turkey">Turkey</option>
                         <option value="Pakistan">Pakistan</option>
                         <option value="India">India</option>
                     </select>
-                    <input type="date" name="date" id="birth-date">
+                    <input type="date" name="date" id="birth-date" required>
                     <input type="submit" class="signup-btn" value="Sign up">
                 </form>
                 <div class="checkboxes-container">
@@ -240,8 +246,49 @@
                     <input type="checkbox" class="checkbox-size" checked>
                     <p class="che-para">Pokémon Center (our official online shop)</p>
                     <input type="checkbox" class="checkbox-size">
-                    <p class="para-with-link che-para">I accept the Pokemon.com <a href="#">Terms of Use</a> and <ahref="#">Privacy Notice</a></p>
+                    <p class="para-with-link che-para">I accept the Pokémon.com <a href="#">Terms of Use</a> and
+                        <a href="#">Privacy Notice</a>
+                    </p>
                 </div>
+            </div>
+        </div>
+        <div class="footer-last-section">
+            <div class="footer-list-container">
+                <h2>The Pokémon Company</h2>
+                <ul class="footer-list">
+                    <li>News</li>
+                    <li>Parents Guide</li>
+                    <li>Customer Service</li>
+                    <li>About Our Company</li>
+                    <li>Careers</li>
+                    <li>Select a Country/Region</li>
+                    <li>Press site</li>
+                </ul>
+            </div>
+            <div class="left-border"></div>
+            <div class="footer-socail-logos">
+                <div class="socail-icon-container">
+                    <div class="socialbox soc-icon1"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="socialbox soc-icon2"><i class="fa-brands fa-youtube"></i></div>
+                    <div class="socialbox soc-icon3"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="socialbox soc-icon4"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="socialbox soc-icon5"><i class="fa-brands fa-pinterest-p"></i></div>
+                </div>
+            </div>
+            <div class="left-border"></div>
+            <div class="footer-copyright-more">
+                <img src="./Accets/footer-section-img.png" alt="">
+                <ul class="footer-list2">
+                    <li>Terms of Use</li>
+                    <li>Privacy Notice</li>
+                    <li>Cookie Page</li>
+                    <li>Legal info</li>
+                    <li>Security</li>
+                    <li>&copy;2025 Pokémon. &copy;1995 - 2025<br> Nintendo/Creatures Inc./GAME FREAK inc. TM,<br>
+                        <sup>&reg;</sup>Nintendo <a class="developer" target="_blank"
+                            href="https://www.github.com/abdulsamijuneja">SMIT STUDENT ABDUL SAMI</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
