@@ -1,2 +1,2 @@
 #Pokemon-Clone only with HTML and Basic CSS
-[pokemon-Clone](https://clone-pokemon-web-site.netlify.app/)
+[ View my pokemon-Clone](https://abdulsamijuneja.github.io/pokemon-clone/)
